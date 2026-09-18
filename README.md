@@ -46,17 +46,17 @@ Protocoles    : API RESTful, GraphQL, Webhooks securises, Passerelle eMECeF DGI,
 
 ### 2. Systemes Industriels Critiques & Projets de Terrain (CABRO GROUP)
 
-* **Passerelle Fiscale eMECeF DGI Benin (Fret & Logistique) :** Interfacage securise avec la plateforme de la Direction Generale des Impots pour la signature electronique en temps reel et la certification fiscale par QR Code officiel.  
-  *Stack : PHP 8.x (cURL REST), C++, MySQL.*
+* **[eMECeF-DGI-Client](https://github.com/ak4f/eMECeF-DGI-Client) :** Passerelle applicative et microservice PHP 8.2 pour l'interfacage securise avec la Direction Generale des Impots (eMECeF DGI Benin), signature electronique en temps reel et certification par QR Code fiscal.  
+  *Stack : PHP 8.2 (cURL REST), Docker Compose, JWT, DTOs.*
 
-* **Plateforme REV-OSC (Le Bon Elevage) :** Systeme d'information agro-pastoral pour la surveillance du cheptel et la tele-declaration sanitaire dans 3 communes du Nord-Benin (Boukombe, Cobly, Natitingou), finance par l'Union Europeenne.  
-  *Stack : PHP, MySQL, Synchronisation de donnees.*
+* **[REV-OSC-Sanitary-Platform](https://github.com/ak4f/REV-OSC-Sanitary-Platform) :** Plateforme agro-pastorale de surveillance sanitaire du cheptel et de tele-declaration avec synchronisation bidirectionnelle hors-ligne (financement Union Europeenne, Nord-Benin).  
+  *Stack : PHP, MySQL, Synchronisation de donnees terrain.*
 
-* **Progiciel Hospitalier Evoludrum (Dossier Patient Informatise) :** Solution complete de gestion clinique (dossiers medicaux, constantes vitales, pharmacie, facturation) conforme aux normes strictes d'edition et d'impression A4.  
-  *Stack : C++, Qt, MariaDB, API PHP.*
+* **[Hospital-EHR-Core](https://github.com/ak4f/Hospital-EHR-Core) :** Composant coeur de dossier patient informatise (DPI), suivi clinique des constantes vitales, gestion mutuelle et generation d'etats d'impression A4 normalises.  
+  *Stack : C++, Qt Framework, MariaDB.*
 
-* **ConvertPHP-GestP :** Outils et modules de conversion de protocoles entre logiciels clients lourds C++ et interfaces web PHP.  
-  *Stack : C++, PHP, Sockets.*
+* **[ConvertPHP-GestP](https://github.com/ak4f/ConvertPHP-GestP) :** Pont logiciel d'interoperabilite et RPC entre interfaces natives client lourd C++/Qt et services web de restitution PHP.  
+  *Stack : C++, PHP, Sockets, IPC.*
 
 ---
 
@@ -65,13 +65,10 @@ Protocoles    : API RESTful, GraphQL, Webhooks securises, Passerelle eMECeF DGI,
 * **[MPVRP-CC Project G5](https://github.com/ak4f/MPVRP-CC-Project-G5) :** Resolution algorithmique par programmation lineaire en nombres entiers du probleme de tournees de vehicules avec contraintes de capacite et fenetres de temps.  
   *Stack : Python 3.12, PuLP, Recherche Operationnelle.*
 
-* **Systeme de Tri Postal Automatique par Vision :** Chaine de traitement numerique d'images pour la lecture et le tri de plis postaux manuscrits : binarisation Otsu, transformation de Fourier 2D et classification KNN (taux de reussite 98.6%).  
-  *Stack : Python, OpenCV, NumPy, Scikit-learn.*
+* **[PostalVision-Otsu-KNN](https://github.com/ak4f/PostalVision-Otsu-KNN) :** Chaine de vision par ordinateur pour le tri postal automatique : seuillage d'Otsu, transformation de Fourier 2D et classifieur KNN (taux de succes 98.6%).  
+  *Stack : Python 3.12, OpenCV, NumPy, Scikit-learn.*
 
-* **Reservation de Ressources Universitaires (IFRI) :** Backend robuste de gestion des plannings d'amphitheatres et d'attribution des equipements universitaires.  
-  *Stack : Java, Spring Boot, Hibernate, PostgreSQL.*
-
-* **[Ateliers Formation Git & Linux](https://github.com/ak4f/projetGit) :** Supports pedagogiques, guides pratiques et cas concrets d'apprentissage du versionnement Gitflow concus lors des sessions de formation dispensees a Ecole229.  
+* **[Ateliers Formation Git & Linux](https://github.com/ak4f/projetGit) :** Supports pedagogiques, guides pratiques et cas d'apprentissage du versionnement Gitflow concus lors des sessions de formation dispensees a Ecole229.  
   *Stack : Git, GitHub, Linux Shell.*
 
 ---
