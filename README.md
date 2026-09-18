@@ -36,7 +36,7 @@ Protocoles    : API RESTful, GraphQL, Webhooks securises, Passerelle eMECeF DGI,
 * **[SFMC Benin - Microservices](https://github.com/ak4f/master1ifri26groupe3) :** Plateforme de supervision industrielle distribuee composee de 10 microservices autonomes, orchestration RabbitMQ (saga d'annulation), API Gateway Kong et persistance PostgreSQL via Prisma.  
   *Stack : Next.js 16, TypeScript, Kong Gateway, RabbitMQ, Docker Compose, PostgreSQL.*
 
-* **Systeme e-Citoyen (API Gateway Kong) :** Passerelle de securisation et de routage centralise des requetes administratives pour les services publics numeriques, deploiement automatise multi-conteneurs avec sondes d'integrite.  
+* **[Kong-eCitoyen-Gateway](https://github.com/ak4f/Kong-eCitoyen-Gateway) :** Passerelle de securisation et de routage centralise des requetes administratives pour les services publics numeriques, deploiement automatise multi-conteneurs avec sondes d'integrite.  
   *Stack : Kong Gateway 3.4, PostgreSQL 13, Docker Compose.*
 
 * **[ASIN Challenge - Excel to DB Importer](https://github.com/ak4f/asin-exel-to-db-challenge) :** Moteur d'importation de donnees massives optimise en flux continu (stream) vers base SQLite, livre avec couverture complete de tests automatises (TDD).  
